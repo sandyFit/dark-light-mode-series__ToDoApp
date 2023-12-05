@@ -1,0 +1,28 @@
+:root {
+    --background: linear-gradient(90deg, rgb(253, 252, 253) 25%, #f1f3fc 50%);
+    --secondary-bg: #e3e5ed;
+    --background-focus: rgba(255, 255, 255, 1);
+    --text-primary-color: #fd4c0b;
+    --text-secondary-color: #213547;
+    --text-placeholder: #fd4c0b;
+    --text-hover-color: #fb5f26;
+    --text-button: #fefefe;
+
+    --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --line-height: 1.5;
+    --font-weight: 400;
+    --font-synthesis: none;
+    --text-rendering: optimizeLegibility;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme='dark'] {
+    --background: linear-gradient(90deg, #404b54 25%, #213547 50%);
+    --secondary-bg: #5e7587;
+    --background-focus: rgba(255, 255, 255, 0.844);
+    --text-primary-color: #f87545;
+    --text-secondary-color: #fdfbfb;
+    --text-placeholder: #fd855a;
+    --text-hover-color: #fd855a;
+}
